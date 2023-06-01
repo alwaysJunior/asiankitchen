@@ -81,3 +81,49 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+
+
+// BUTTONLAR
+
+const btnAll = document.createElement('button');
+btnAll.type = 'button' //tipini button olarak belirttik
+btnAll.classList.add('btn-item', 'btn-light', 'btn-outline-none'); // button'a classlist ekliyoruz, bootstrap ile css ekledik.
+btnAll.textContent = "All"; //button'ın içerisinde ne yazacağını belirttik.
+btnAll.id = "all" // buttona id verdik
+
+const container1 = document.querySelector('.btn-container'); // oluşturduğumuz button'ı ekleyeceğimiz class'ı seçiyoruz.
+container1.appendChild(btnAll); // button'ı belirttiğimiz değişkendeki class'a ekliyoruz.
+
+
+
+//KOREA BUTTON
+const btnKorea = document.createElement('button');
+btnKorea.type = 'button' //tipini button olarak belirttik
+btnKorea.classList.add('btn-item', 'btn-light', 'btn-outline-none'); // button'a classlist ekliyoruz, bootstrap ile css ekledik.
+btnKorea.textContent = "Korea"; //button'ın içerisinde ne yazacağını belirttik.
+btnKorea.id = "korea" // buttona id verdik
+
+const container2 = document.querySelector('.btn-container'); // oluşturduğumuz button'ı ekleyeceğimiz class'ı seçiyoruz.
+container2.appendChild(btnKorea); // button'ı belirttiğimiz değişkendeki class'a ekliyoruz.
+
+
+// JAPAN BUTTON
+const btnJapan = document.createElement('button');
+btnJapan.type = 'button' //tipini button olarak belirttik
+btnJapan.classList.add('btn-item', 'btn-light', 'btn-outline-none'); // button'a classlist ekliyoruz, bootstrap ile css ekledik.
+btnJapan.textContent = "Japan"; //button'ın içerisinde ne yazacağını belirttik.
+btnJapan.id = "japan" // buttona id verdik
+
+const container3 = document.querySelector('.btn-container'); // oluşturduğumuz button'ı ekleyeceğimiz class'ı seçiyoruz.
+container3.appendChild(btnJapan); // button'ı belirttiğimiz değişkendeki class'a ekliyoruz.
+
+
+//CHINA BUTTON
+const btnChina = document.createElement('button');
+btnChina.type = 'button' //tipini button olarak belirttik
+btnChina.classList.add('btn-item', 'btn-light', 'btn-outline-none'); // button'a classlist ekliyoruz, bootstrap ile css ekledik.
+btnChina.textContent = "China"; //button'ın içerisinde ne yazacağını belirttik.
+btnChina.id = "china" // buttona id verdik
+
+const container4 = document.querySelector('.btn-container'); // oluşturduğumuz button'ı ekleyeceğimiz class'ı seçiyoruz.
+container4.appendChild(btnChina); // button'ı belirttiğimiz değişkendeki class'a ekliyoruz.

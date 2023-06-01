@@ -25,6 +25,22 @@ h2 {
   align-items: center;
   margin: 40px 0;
 }
+
+.btn-container button {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 3px 0px #888;
+  border-radius: 5px;
+  transition: 0.4s ease;
+  padding: 5px 10px;
+}
+
+.btn-container button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
 .btn-item {
   margin-left: 15px;
 }
